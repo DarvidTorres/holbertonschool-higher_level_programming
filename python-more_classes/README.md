@@ -1,0 +1,1 @@
+In Python, __init__ is an instance method that initializes a newly created object. It takes the object as its first argument followed by additional arguments. The method takes the object as its first argument (self), followed by any additional arguments that need to be passed to it.
