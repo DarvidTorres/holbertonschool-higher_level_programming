@@ -1,13 +1,8 @@
 #!/usr/bin/python3
-"""This file contain a function that called lookup"""
+"""function that returns the list of available attributes and methods
+ of an object"""
 
 
 def lookup(obj):
-    """lookup function that get all attributes and methods of a class
-    Args:
-        obj (class): class parameter
-
-    Returns:
-        list: list with all attributes and methods of the class
-    """
+    """Inicialized"""
     return dir(obj)
