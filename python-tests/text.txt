@@ -1,0 +1,26 @@
+a=[1,2,3,4,5]   # List Object
+b=(1,2,3,4,5)   # Tupple Object
+c="Hello"       # String Object
+
+### list() separates each character in the string and builds the list
+obj=list(c)
+print(obj)
+
+### The parentheses of tuple are replaced by square brackets
+obj=list(b)
+print(obj)
+
+### tuple() separates each character from string and builds a tuple of characters
+obj=tuple(c)
+print(obj)
+
+### square brackets of list are replaced by parentheses.
+obj=tuple(a)
+print(obj)
+
+### str() function puts the list and tuple inside the quote symbols.
+obj=str(a)
+print(obj)
+
+obj=str(b)
+print(obj)
