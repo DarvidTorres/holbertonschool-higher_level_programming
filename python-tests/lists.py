@@ -39,3 +39,14 @@
 
 # print(dict1.index(0))
 # print(dict2.index(0))
+
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+x = car.items()
+
+for i in x:
+    print(i)
